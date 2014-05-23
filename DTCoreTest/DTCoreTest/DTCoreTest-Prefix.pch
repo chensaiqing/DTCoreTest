@@ -10,7 +10,23 @@
 #warning "This project uses features only available in iOS SDK 5.0 and later."
 #endif
 
+#ifdef DEBUG
+#define DLog(fmt,...) NSLog((@"%s [Line %d] " fmt),__PRETTY_FUNCTION__,__LINE__,##__VA_ARGS__)
+#else
+#define DLog(fmt,...)
+#endif
+
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import "APPSetting.h"
+    #import "z_UI.h"
+    #import "AFNetworking.h"
+    #import "SetUtil.h"
+    #import "SVProgressHUD.h"
+    #import "MyMD5.h"
+    #import <QuartzCore/QuartzCore.h>
+    #import "BaseViewController.h"
+    #import "RACEXTScope.h"
+    #import "UniversalMethod.h"
 #endif
