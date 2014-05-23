@@ -13,7 +13,6 @@
 		A1C77DBD192EFA4D00E5D660 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1C77DBB192EFA4D00E5D660 /* InfoPlist.strings */; };
 		A1C77DBF192EFA4D00E5D660 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C77DBE192EFA4D00E5D660 /* main.m */; };
 		A1C77DC3192EFA4D00E5D660 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C77DC2192EFA4D00E5D660 /* AppDelegate.m */; };
-		A1C77DC6192EFA4D00E5D660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C77DC4192EFA4D00E5D660 /* Main.storyboard */; };
 		A1C77DC9192EFA4D00E5D660 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C77DC8192EFA4D00E5D660 /* ViewController.m */; };
 		A1C77DCB192EFA4D00E5D660 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C77DCA192EFA4D00E5D660 /* Images.xcassets */; };
 		A1C77DD2192EFA4D00E5D660 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C77DD1192EFA4D00E5D660 /* XCTest.framework */; };
@@ -44,7 +43,6 @@
 		A1C77DC0192EFA4D00E5D660 /* DTCoreTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DTCoreTest-Prefix.pch"; sourceTree = "<group>"; };
 		A1C77DC1192EFA4D00E5D660 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1C77DC2192EFA4D00E5D660 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A1C77DC5192EFA4D00E5D660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1C77DC7192EFA4D00E5D660 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A1C77DC8192EFA4D00E5D660 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A1C77DCA192EFA4D00E5D660 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -114,7 +112,6 @@
 			children = (
 				A1C77DC1192EFA4D00E5D660 /* AppDelegate.h */,
 				A1C77DC2192EFA4D00E5D660 /* AppDelegate.m */,
-				A1C77DC4192EFA4D00E5D660 /* Main.storyboard */,
 				A1C77DC7192EFA4D00E5D660 /* ViewController.h */,
 				A1C77DC8192EFA4D00E5D660 /* ViewController.m */,
 				A1C77DCA192EFA4D00E5D660 /* Images.xcassets */,
@@ -230,7 +227,6 @@
 			files = (
 				A1C77DCB192EFA4D00E5D660 /* Images.xcassets in Resources */,
 				A1C77DBD192EFA4D00E5D660 /* InfoPlist.strings in Resources */,
-				A1C77DC6192EFA4D00E5D660 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,14 +276,6 @@
 				A1C77DBC192EFA4D00E5D660 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A1C77DC4192EFA4D00E5D660 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1C77DC5192EFA4D00E5D660 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		A1C77DDA192EFA4D00E5D660 /* InfoPlist.strings */ = {
