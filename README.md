@@ -1,0 +1,4 @@
+DTCoreTest
+==========
+
+coretext 
